@@ -4,5 +4,20 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome To My First project</h1>
+    <h3>Current Time : @DateTime.Now.ToString("dd-MM-yyyy")</h3>
+    <h3>Current Time : @DateTime.Now.ToString("hh-mm-ss")</h3>
+
+    <p>
+        single line logic @(3+6)
+
+        Multi line logic
+        @{ 
+            int x = 10;
+            int y = 13;
+            int sum = x + y;
+        }
+        sum = @sum
+    </p>
+
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
